@@ -1,0 +1,34 @@
+.ProfileUpdate {
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.ProfileUpdateForm {
+  max-width: 600px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 50px 50px 30px 50px;
+}
+
+.ProfileUpdateFormBody {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ProfileUpdateFormFooter {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ErrorDisplay {
+  color: #bf1650;
+}
+
+.ErrorDisplay::before {
+  display: inline;
+  content: "⚠ ";
+}

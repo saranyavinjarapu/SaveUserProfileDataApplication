@@ -1,0 +1,54 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -5px 20px 5px 0px;
+}
+
+.GreetingHeadline {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.GreetingName {
+  text-transform: capitalize;
+}
+
+.GreetingDate {
+  color: #9e9e9e;
+  margin-top: 0;
+  padding-top: 8px;
+}
+
+.Account {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Account button {
+  font-size: 10px;
+  padding: 6px 16px;
+  height: max-content;
+}
+
+.Account img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+}
+
+.AccountInfo p {
+  margin: 0;
+  padding: 0;
+}
+.AccountInfo .AccountName {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.AccountInfo .AccountRole {
+  font-size: 13px;
+  color: #908e8e;
+}

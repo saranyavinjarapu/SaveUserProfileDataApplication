@@ -1,0 +1,46 @@
+.ProfileDisplay {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 211, 211, 0.2);
+  width: 370px;
+  height: 100%;
+}
+
+.ProfileDisplayContainer {
+  margin-top: 70px;
+  width: 160px;
+  height: 170px;
+  position: relative;
+  text-align: center;
+}
+
+.ProfileDisplayContainer h3 {
+  text-transform: capitalize;
+  max-width: 200px;
+  overflow: auto;
+}
+
+.ProfileDisplayContainer p {
+  margin-top: -7px;
+  color: gray;
+  font-size: 18px;
+  max-width: 200px;
+  overflow: auto;
+}
+
+.ProfileDisplay img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.CameraIcon {
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  bottom: 13px;
+  right: -25px;
+  border-radius: 15%;
+  padding: 10px;
+}

@@ -1,0 +1,13 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(197, 193, 193, 0.1);
+  padding-left: 30px;
+}
+
+.UserProfile {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
